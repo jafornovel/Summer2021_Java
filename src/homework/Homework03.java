@@ -35,6 +35,7 @@ public class Homework03 {
         //QUESTION 03
 
         String sentence_3 = "ABC Networks";
+        String result_3 = "";
         /**
          * 1. Display/Print length of your sentence_3
          * 2. does sentence_3 starts with "a" (ignore cases)
@@ -54,12 +55,12 @@ public class Homework03 {
         boolean sentenceEndsWith = sentence_3b.endsWith("K");
         System.out.println("\n does sentence_3 ends with K : " + sentenceEndsWith );
 
-       Boolean result_3 = sentenceStartsWith = "a" ? " Media " : "Entertainment" ;
+        result_3 = sentence_3.toLowerCase().startsWith("a") ? " Media " : "Entertainment" ;
 
-        System.out.println(result_3);
+        System.out.println("\n The sentence starts with a (OUTPUT) : " + result_3);
 
 
-      //  sentence_3 =
+
 
 
 
