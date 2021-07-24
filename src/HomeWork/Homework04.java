@@ -29,9 +29,6 @@ public class Homework04 {
         // words [1] = "new"
         // words [2] = "year"
 
-        words [0].replace('h', 'H');
-        words [1].replace('n', 'N');
-        words [2].replace('y', 'Y');
 
 
 

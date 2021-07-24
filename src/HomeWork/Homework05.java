@@ -59,7 +59,7 @@ public class Homework05 {
          */
 
 
-        int number = 7;
+        int number = 3;
 
         if (number % 3 == 0) {
             System.out.println("divisible by 3");
@@ -70,7 +70,7 @@ public class Homework05 {
         } else if (number % 3 == 0 && number % 5 == 0) {
             System.out.println("divisible by both 3 and 5");
 
-        } else if (number % 5 != 0 || number % 3 != 0) {
+        } else  {
             System.out.println(number + " is not divisible by 5 or 3");
 
 

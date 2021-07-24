@@ -17,10 +17,16 @@ public class Homework06 {
          *
          * For hint refer: Loops_Concept , Line#34
          */
-
         /**
          * create the abbreviation  // HNY
          */
+
+
+        String sentence = "happy new year TO You DeaR ";
+
+
+
+
         String threeWordSentence_2 = "very gOOD MorNING to You dear";
         String abbr = "";
 
@@ -52,6 +58,15 @@ public class Homework06 {
          *  Based on your grade(Z), you get XXXX scholarship for next year
          *
          */
+
+        int studentScore = 120;
+        int maxScore = 200;
+
+        int scorePercentage = (studentScore/maxScore) * 100;
+
+        if (scorePercentage >90 ) {
+            System.out.println("Student grade is A, full scholarship for next year");
+        }
 
 
 
