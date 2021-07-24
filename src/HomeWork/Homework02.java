@@ -13,11 +13,6 @@ public class Homework02 {
          *
          * fT = cT × 9/5 + 32
          */
-
-        double cTemp = 21.11;
-        double fTemp = cTemp * 9/5 + 32;
-        System.out.println(cTemp + "°C = " + fTemp + "°F");
-
         /**
          * Refer -> https://www.rapidtables.com/convert/temperature/how-celsius-to-fahrenheit.html
          *
@@ -32,6 +27,21 @@ public class Homework02 {
          * K -> F
          *
          */
+
+
+
+
+        // Celsius to Kelvin
+        double cTemp = 21.11;
+        double fTemp = cTemp * 9/5 + 32; // C -> F
+        double kTemp = cTemp + 273.15;   // C -> K
+        double fCelsius = (fTemp -32) * (5/9);// F -> C
+
+
+        System.out.println(cTemp + "°C = " + fTemp + "°F");
+
+
+
 
     }
 

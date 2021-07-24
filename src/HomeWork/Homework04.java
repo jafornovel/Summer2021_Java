@@ -1,6 +1,6 @@
 package HomeWork;
 
-public class Howework04 {
+public class Homework04 {
 
     public static void main(String[] args) {
         // Due: July 18
@@ -19,9 +19,27 @@ public class Howework04 {
         // Answer - 01
 
         String threeWordSentence_1 = "hApPy nEW yeAr";
-        String  threeWordSentence_2 = threeWordSentence_1.toLowerCase();
-        System.out.println(threeWordSentence_2);
-        threeWordSentence_2.split(" ");
+
+        String  threeWordSentence_1a = threeWordSentence_1.toLowerCase();
+        System.out.println(threeWordSentence_1a);
+
+        String [] words = threeWordSentence_1a.split(" ");
+
+        // words [0] = "happy"
+        // words [1] = "new"
+        // words [2] = "year"
+
+        words [0].replace('h', 'H');
+        words [1].replace('n', 'N');
+        words [2].replace('y', 'Y');
+
+
+
+
+
+
+
+        System.out.println(words [0]);
 
 
 
@@ -35,9 +53,11 @@ public class Howework04 {
 
 
         // Question - 2:
+
         /**
          * create the abbreviation  // HNY
          */
+
        // String threeWordSentence_2 = "very gOOD MorNING";
       //  String abbr = "";
 
@@ -47,11 +67,29 @@ public class Howework04 {
         // Abbreviation for 'very gOOD MorNING' is : VGM
 
 
+        String threeWordSentence_2 = "very gOOD MorNING";
+        String threeWordSentence_2a = threeWordSentence_2.toUpperCase();
+        String [] words3 = threeWordSentence_2a.split(" ");
+
+        char word001 = words3 [0].charAt(0);
+
+
+
+
+        System.out.println(word001);
+
+
         // Question - 3:
+
         /**
          * print the number of words in the sentence.
          */
-      //  String sentence_3 = "We all are here to learn programming and testing";
+
+        String sentence_3 = "We all are here to learn programming and testing";
+
+        String [] sentenceSplit = sentence_3.split( " ");
+
+        System.out.println(sentenceSplit.length);
 
 
 
