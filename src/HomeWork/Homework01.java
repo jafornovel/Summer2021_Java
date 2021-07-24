@@ -33,7 +33,7 @@ public class Homework01 {
 
         System.out.println("\n Number of Days in A day is " + numberOfHoursInAday);
         System.out.println("\n Total number of employees in an organization " + totalNumberOfEmployeesInAnOrganization);
-        System.out.println("\n Max no. of days in an year " + maxNumbersOfDaysInAyear);
+        System.out.println("\n Max number of days in an year " + maxNumbersOfDaysInAyear);
         System.out.println("\n Population in a country " + countryPopulation + " people" );
         System.out.println("\n Mortgage rate is : " + morgageRate + " percentage");
         System.out.println("\n Balance in a bank account is $ " + balanceInBank);
