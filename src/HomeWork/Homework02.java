@@ -1,18 +1,9 @@
-package HomeWork;
+package HomeWork; //Completed
 
 public class Homework02 {
 
 
     public static void main(String[] args) {
-
-        /**
-         *
-         * Due: July 8
-         *
-         * Convert deg-Cel into Fahrenheit
-         *
-         * fT = cT × 9/5 + 32
-         */
         /**
          * Refer -> https://www.rapidtables.com/convert/temperature/how-celsius-to-fahrenheit.html
          *
@@ -31,14 +22,27 @@ public class Homework02 {
 
 
 
-        // Celsius to Kelvin
+
         double cTemp = 21.11;
-        double fTemp = cTemp * 9/5 + 32; // C -> F
-        double kTemp = cTemp + 273.15;   // C -> K
-        double fCelsius = (fTemp -32) * (5/9);// F -> C
+        double cToF = cTemp * 9/5 + 32;
+        double cToK = cTemp + 273.15;
+        System.out.println("\n\nThe temperature in Fahrenheit is : "+ cToF);
+        System.out.println("The temperature in Kelvin from Celsius is : " + cToK);
 
 
-        System.out.println(cTemp + "°C = " + fTemp + "°F");
+        double fTemp = 34.6;
+        double fToC = (fTemp -32) * (5/9);
+        double fToK =(fTemp + 459.67 ) * (5/9);
+        System.out.println("\n\nThe temperature in Celsius from Fahrenheit is : " + fToC);
+        System.out.println("The temperature in Kelvin from Fahrenheit is : " + fToK);
+
+
+        double kTemp = 300.00;
+        double kToC = kTemp - 273.15;
+        double kToF =(kTemp * (5/9)) -459.67;
+        System.out.println("\n\nThe temperature in Celsius from Kelvin is : " + kToC);
+        System.out.println("The temperature in Fahrenheit from Kelvin is : " + kToF);
+
 
 
 
