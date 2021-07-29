@@ -8,8 +8,6 @@ public class Homework06 {
 
 
         // Due: Sunday July 25
-
-
         /**
          * String sentence = "happy new year TO You DeaR"
          * // code

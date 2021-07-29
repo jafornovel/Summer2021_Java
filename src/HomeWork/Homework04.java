@@ -20,34 +20,13 @@ public class Homework04 {
 
         String threeWordSentence_1 = "hApPy nEW yeAr";
 
-        String  threeWordSentence_1a = threeWordSentence_1.toLowerCase();
-        System.out.println(threeWordSentence_1a);
+        String [] words = threeWordSentence_1.split(" ");
 
-        String [] words = threeWordSentence_1a.split(" ");
+        String firstWord = words[0].substring(0,1).toUpperCase() + words[0].substring(1).toLowerCase();
+        String secondWord = words[1].substring(0,1).toUpperCase() + words [1].substring(1).toLowerCase();
+        String thirdWord = words[2].substring(0,1).toUpperCase() + words [2].substring(1).toLowerCase();
 
-        // words [0] = "happy"
-        // words [1] = "new"
-        // words [2] = "year"
-
-
-
-
-
-
-
-
-        System.out.println(words [0]);
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println( firstWord + " " + secondWord + " " + thirdWord );
 
         // Question - 2:
 
@@ -55,7 +34,15 @@ public class Homework04 {
          * create the abbreviation  // HNY
          */
 
-       // String threeWordSentence_2 = "very gOOD MorNING";
+
+        String firstWord1 = words[0].substring(0,1).toUpperCase();
+        String secondWord1 = words[1].substring(0,1).toUpperCase();
+        String thirdWord1 = words[2].substring(0,1).toUpperCase();
+
+        System.out.println( firstWord1 + secondWord1 + thirdWord1 );
+
+
+        // String threeWordSentence_2 = "very gOOD MorNING";
       //  String abbr = "";
 
         // code
@@ -67,13 +54,13 @@ public class Homework04 {
         String threeWordSentence_2 = "very gOOD MorNING";
         String threeWordSentence_2a = threeWordSentence_2.toUpperCase();
         String [] words3 = threeWordSentence_2a.split(" ");
+        String firstWord2 = words3 [0].substring(0,1).toUpperCase();
+        String secondWord2 = words3 [1].substring(0,1).toUpperCase();
+        String thirdWord2 = words3 [2].substring(0,1).toUpperCase();
 
-        char word001 = words3 [0].charAt(0);
 
 
-
-
-        System.out.println(word001);
+        System.out.println(firstWord2 + secondWord2 + thirdWord2);
 
 
         // Question - 3:
